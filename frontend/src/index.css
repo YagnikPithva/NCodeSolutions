@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 14px;
+  background: #f5f5f5;
+  color: #222;
+}
+
+a {
+  color: #0645ad;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+input,
+select {
+  padding: 4px 6px;
+  border: 1px solid #999;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #e8e8e8;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #bbb;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  min-width: 110px;
+}
+
+.err {
+  color: #b00000;
+  margin: 8px 0;
+}
+
+.ok {
+  color: #0a7a0a;
+  margin: 8px 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.muted {
+  color: #666;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px 10px;
+  max-width: 480px;
+  align-items: center;
+}
+
+.form-grid button {
+  grid-column: 2;
+  width: fit-content;
+}
+
+.actions button {
+  margin-right: 6px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
